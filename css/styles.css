@@ -843,7 +843,7 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
 .portfolio-nav {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    /* margin: -15px; */
 }
 
 .portfolio-nav-list {
@@ -1084,7 +1084,7 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
 .modal-form-label-policy {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -1092,6 +1092,7 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
     color: #757575;
 
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .modal-form-button {
