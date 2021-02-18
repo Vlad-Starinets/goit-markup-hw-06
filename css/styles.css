@@ -764,6 +764,7 @@ margin-right: 30px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     cursor: pointer;
 
     font-weight: 700;
@@ -843,7 +844,7 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
 .portfolio-nav {
     display: flex;
     flex-wrap: wrap;
-    /* margin: -15px; */
+    margin: -15px;
 }
 
 .portfolio-nav-list {
@@ -985,11 +986,11 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
     letter-spacing: 0.03em;
 
     color: #212121;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .modal-form-input-label {
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .modal-form-input-wrapper {
@@ -1108,6 +1109,7 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     padding: 10px 55px;
     cursor: pointer;
 }
