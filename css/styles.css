@@ -963,6 +963,12 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
 .modal-icon {
     Width: 11px;
     Height: 11px;
+    transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+
+.modal-close-btn:focus .modal-icon,
+.modal-close-btn:hover .modal-icon{
+    fill: var(--accent-color);
 }
 
 .is-hidden {
@@ -991,6 +997,14 @@ box-shadow var(--transition-duration) var(--transition-timing-function);
 
 .modal-form-input-label {
     margin-bottom: 10px;
+}
+
+.modal-form-input-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: 0.01em;
+    color: #757575;
 }
 
 .modal-form-input-wrapper {
